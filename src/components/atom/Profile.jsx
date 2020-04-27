@@ -9,8 +9,8 @@ export default function Profile() {
     <div className="Profile">
       <img src={Information.avatar} alt="" />
       <div className="Profile-info">
-        <h3>Cesar Galindo</h3>
-        <span> Web Developer</span>
+        <h3>{Information.name}</h3>
+        <span>{Information.profession}</span>
       </div>
     </div>
   );

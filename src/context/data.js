@@ -2,14 +2,15 @@ import React from 'react';
 
 export const Information = {
   data: {
-    name: 'César Galindo',
-    profession: 'Frontend Developer',
+    name: 'Diego Maury',
+    profession: 'Master Coach',
     address: 'Bogotá, Colombia.',
     email: 'csgalindos@hotmail.com',
+    title: 'General Information',
     website: 'http://cesargalindos.com',
     phone: '300 365 85 68',
     avatar:
-      'https://pbs.twimg.com/profile_images/1055299470148227072/xeEopDm__400x400.jpg',
+      'https://pbs.twimg.com/profile_images/1232485118431899649/ow8vqMTj_400x400.jpg',
     profile:
       "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly",
     certificate: [

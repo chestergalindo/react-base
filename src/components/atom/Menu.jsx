@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import '../../styles/components/atom/Menu.styl';
+import InformationContext from '../../context/data';
 
 export default function Menu() {
+  const Information = useContext(InformationContext);
+
   return (
     <div className="Menu">
-      <a href="/"> General </a>
-      <a href="/"> General </a>
-      <a href="/"> General </a>
+      <a href="/">{Information.title}</a>
     </div>
   );
 }
