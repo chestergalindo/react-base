@@ -3,37 +3,37 @@ import { RadialBarChart, RadialBar, Legend } from 'recharts';
 
 const data = [
   {
-    name: 'Oceania',
+    name: '🧜‍♀️ Oceania',
     uv: 42677813,
     pv: 4800,
     fill: '#d0ed57',
   },
   {
-    name: 'North America',
+    name: '👨🏼‍⚖️ North America',
     uv: 368869647,
     pv: 3908,
     fill: '#a4de6c',
   },
   {
-    name: 'Latin America',
+    name: '💃🏻 Latin America',
     uv: 653962331,
     pv: 9800,
     fill: '#82ca9d',
   },
   {
-    name: 'Europe',
+    name: '💶 Europe',
     uv: 747636026,
     pv: 1398,
     fill: '#8dd1e1',
   },
   {
-    name: 'Africa',
+    name: '🌍 Africa',
     uv: 1340598147,
     pv: 4567,
     fill: '#83a6ed',
   },
   {
-    name: 'Asia',
+    name: '🍣 Asia',
     uv: 4641054775,
     pv: 2400,
     fill: '#8884d8',
@@ -50,7 +50,7 @@ export default class Example extends PureComponent {
   render() {
     return (
       <RadialBarChart
-        width={500}
+        width={700}
         height={300}
         cx={150}
         cy={150}
@@ -68,7 +68,7 @@ export default class Example extends PureComponent {
         />
         <Legend
           iconSize={20}
-          width={150}
+          width={200}
           height={140}
           layout="vertical"
           verticalAlign="middle"

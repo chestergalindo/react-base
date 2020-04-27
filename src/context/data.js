@@ -4,129 +4,49 @@ export const Information = {
   data: {
     name: 'Diego Maury',
     profession: 'Master Coach',
-    address: 'Bogotá, Colombia.',
-    email: 'csgalindos@hotmail.com',
     title: 'General Information',
-    website: 'http://cesargalindos.com',
-    phone: '300 365 85 68',
     avatar:
       'https://pbs.twimg.com/profile_images/1232485118431899649/ow8vqMTj_400x400.jpg',
-    profile:
-      "Ignore the squirrels, you'll never catch them anyway hack, for floof tum, tickle bum, jellybean footies curly toes climb leg roll over and sun my belly",
-    certificate: [
+    religion: [
       {
-        date: 'Nov 2009',
-        description: 'work about supply and progress of buy',
-        institution: 'Javeriana',
-        name: 'supply',
+        name: 'Christians',
+        valor: '2.173 M',
+        percentage: '31%',
       },
       {
-        date: 'Jan 2010',
-        description: 'set segurity in interm sistem',
-        institution: 'Cali',
-        name: 'Backend Developer',
-      },
-    ],
-    Academic: [
-      {
-        degree: 'ingeniera industrial',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit',
-        endDate: 'Jan 2015',
-        institution: 'Konrad',
-        startDate: 'Jan 2010',
+        name: 'Muslims',
+        valor: '1.598 M',
+        percentage: '23%',
       },
       {
-        degree: 'psicology',
-        description: 'I try to learn about the cat',
-        endDate: 'Decenber 2015',
-        institution: 'Xaveriana',
-        startDate: 'Jan 2017',
+        name: 'No Religion',
+        valor: '1.126 M',
+        percentage: '16%',
       },
       {
-        degree: 'psicology',
-        description: 'I try to learn about the cat',
-        endDate: 'Decenber 2015',
-        institution: 'Xaveriana',
-        startDate: 'Jan 2017',
-      },
-    ],
-    experience: [
-      {
-        company: 'Javeriana',
-        endDate: 'Present',
-        jobDescription: 'Lorem ipsum dolor sit amet consectetur',
-        jobTitle: 'Frontend',
-        startDate: 'Jan 2020',
+        name: 'Hindus',
+        valor: '1.033 M',
+        percentage: '15%',
       },
       {
-        company: 'Javeriana Cali',
-        endDate: 'Jan 2013',
-        jobDescription: 'created data bases',
-        jobTitle: 'Backend',
-        startDate: 'Sept 2010',
+        name: 'Buddhists',
+        valor: '487 M',
+        percentage: '7%',
       },
       {
-        company: 'Sodimec',
-        endDate: 'Jan 2013',
-        jobDescription: 'created data bases',
-        jobTitle: 'Backend',
-        startDate: 'Sept 2010',
-      },
-    ],
-    skills: [
-      {
-        name: 'HTML5',
-        percentage: '80%',
+        name: 'Folk Religionists',
+        valor: '405 M',
+        percentage: '6%',
       },
       {
-        name: 'CSS',
-        percentage: '50%',
+        name: 'Other Religions',
+        valor: '58 M',
+        percentage: '1%',
       },
       {
-        name: 'JavaScript',
-        percentage: '60%',
-      },
-      {
-        name: 'React',
-        percentage: '70%',
-      },
-    ],
-    interest: [
-      { name: 'react' },
-      { name: 'develop' },
-      { name: 'javascript' },
-      { name: 'frontend' },
-    ],
-    languages: [
-      {
-        name: 'Spanish',
-        percentage: '85%',
-      },
-      {
-        name: 'English',
-        percentage: '40%',
-      },
-      {
-        name: 'portuguese',
-        percentage: '40%',
-      },
-    ],
-    social: [
-      {
-        name: 'facebook',
-        url: 'https://facebook.com/',
-      },
-      {
-        name: 'twitter',
-        url: 'https://twitter.com/',
-      },
-      {
-        name: 'github',
-        url: 'https://github.com/',
-      },
-      {
-        name: 'linkedin',
-        url: 'https://www.linkedin.com/',
+        name: 'Jews',
+        valor: '13 M',
+        percentage: '0.2%',
       },
     ],
   },
