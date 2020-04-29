@@ -50,7 +50,7 @@ export default class Example extends PureComponent {
   render() {
     return (
       <RadialBarChart
-        width={700}
+        width={600}
         height={300}
         cx={150}
         cy={150}

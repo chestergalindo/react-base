@@ -48,7 +48,7 @@ export default class GeneralGraphic extends PureComponent {
     return (
       <AreaChart
         width={750}
-        height={300}
+        height={250}
         data={data}
         margin={{
           top: 10,
